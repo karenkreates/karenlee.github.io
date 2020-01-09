@@ -1,0 +1,68 @@
+body{
+  font-family:"Open Sans", sans-serif;
+  font-size: 1em;
+  color: #322E2E; /*grey*/
+}
+
+/* GENERAL TEXT */
+h1{
+  font-weight: normal;
+}
+
+.important{
+  font-weight: bold;
+  color: #90A2D1;     /*blue*/
+}
+
+.body-text{
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  padding-right: 5em;
+}
+
+/* BUTTON FOR HOME PAGE */
+button{
+  background: none;
+  border: 0.1em solid #322E2E;
+  padding: 0.5em;
+  font-family:"Open Sans", sans-serif;
+  font-weight: bold;
+}
+
+button:hover {
+  border-color: #7380A4;     /*dark blue*/
+  color: #7380A4;     /*dark blue*/
+  transition: 0.8s ease;
+}
+
+/* LINKS */
+a{
+  text-decoration: none; /*gets rid of underline*/
+  color: #322E2E; /*grey*/
+}
+
+a:visited{
+  color: #322E2E; /*grey*/
+}
+
+a:hover{
+  color:#90A2D1;     /*blue*/
+  transition: 0.5s ease;
+}
+
+/*NAVIGATION BAR*/
+nav li{
+  display: block; /*gets rid of bullet points*/
+  float: right;
+  padding: 1em;
+  padding-left: 0em;
+  padding-right: 1.5em;
+}
+
+
+.home{
+  position: fixed;
+  float: left;
+  padding-top: 1em;
+}
